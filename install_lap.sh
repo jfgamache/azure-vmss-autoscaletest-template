@@ -10,8 +10,8 @@ apt-get -y install apache2 php5
 
 # write some PHP
 cd /var/www/html
-wget https://github.com/jfgamache/azure-vmss-autoscaletest-template/blob/master/index.php
-wget https://github.com/jfgamache/azure-vmss-autoscaletest-template/blob/master/do_work.php
+wget https://raw.github.com/jfgamache/azure-vmss-autoscaletest-template/blob/master/index.php
+wget https://raw.github.com/jfgamache/azure-vmss-autoscaletest-template/blob/master/do_work.php
 rm /var/www/html/index.html
 # restart Apache
 apachectl restart
